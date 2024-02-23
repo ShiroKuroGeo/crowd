@@ -47,7 +47,6 @@
                                             </td>
                                             <td>
                                                 <button class="btn btn-primary ms-1 btn-sm" data-bs-toggle="modal" data-bs-target="#needApproval" @click="selectedProofDonate(d.camp_id)">Approved</button>
-                                                <button class="btn btn-danger ms-1 btn-sm">Decline</button>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -68,7 +67,7 @@
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary" @click="approved(d.camp_id)">Save changes</button>
+                                            <button type="button" class="btn btn-primary" @click="approved(d.camp_id)">Approve</button>
                                         </div>
                                     </div>
                                 </div>
