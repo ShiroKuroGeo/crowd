@@ -1,0 +1,50 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.30)),  url(/crowd/Assets/Img/donation.jpg) no-repeat;
+    background-size: 100% 100%; /* Cover the entire container */
+    background-size: cover;
+    background-position: center center;
+    image-rendering: crisp-edges;
+    -webkit-image-rendering: pixelated;
+    -moz-image-rendering: pixelated;
+    -o-image-rendering: pixelated;
+}
+.logo {
+    height: 200px; 
+    width: 350px; 
+    display: block;     
+}
+
+.navbar-custom {
+    background: linear-gradient(to right , rgb(255, 255, 255),rgb(255, 0, 140)); 
+    
+}
+
+.navbar-custom .navbar-toggler-icon {
+    color: #fff; 
+}
+
+.navbar-custom .nav-link {
+    color: #fff; 
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffcc00; 
+}
+li{
+font-size: 20px;
+}
+footer{
+    background: linear-gradient(to right , rgb(255, 255, 255),rgb(255, 0, 140)); 
+   
+}
+.navbar-custom {
+    max-height: 100px; 
+}
+
+.navbar-brand img.logo {
+    max-height: 120%; 
+    width: auto; 
+}

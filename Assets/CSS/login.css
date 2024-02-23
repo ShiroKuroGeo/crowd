@@ -1,0 +1,30 @@
+.login_form {
+  width: 500px;
+}
+.forgot_pw {
+  text-align: end;
+}
+.forgot_pw a {
+  color: #000;
+}
+.login_form_btn {
+  font-weight: 575;
+  color: #000;
+  text-transform: uppercase;
+}
+.login_forgot {
+  margin-top: 15px;
+}
+.login_form form input {
+  border-color: var(--secondary);
+}
+
+
+@media only screen and (max-width: 705px) {
+  /* LOGIN CSS */
+  .login_form {
+    width: auto;
+  }
+  /* LOGIN CSS */
+}
+
